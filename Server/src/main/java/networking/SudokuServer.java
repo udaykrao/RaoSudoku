@@ -24,7 +24,7 @@ public class SudokuServer implements Runnable {
     private final ArrayList<SudokuPacket> packets = new ArrayList<>();
     private volatile int[][] board;
     private volatile int[][] soln;
-    private static final int PORT = 60000;
+    private static final int PORT = 58000;
 
     /**
      * Creates a Sudoku Server with the default port defined in PORT.
